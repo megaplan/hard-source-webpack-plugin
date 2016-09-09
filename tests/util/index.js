@@ -94,7 +94,7 @@ exports.itCompilesTwice = function(fixturePath) {
   });
 
   it('builds identical ' + fixturePath + ' fixture', function() {
-    this.timeout(10000);
+    this.timeout(20000);
     return exports.compileTwiceEqual(fixturePath);
   });
 };
